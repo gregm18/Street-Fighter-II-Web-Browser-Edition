@@ -6,3 +6,5 @@ Changelog
 - Movement mechanics activated by the keyboard
 - Real Time Animation
 - Collision Boxes that make sure no characters move through each other.
+
+Testing if it is possible to make edits
