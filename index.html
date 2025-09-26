@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"
+        <title> FireGuy808 | Street Fighter Tutorial </title>
+        <style>
+            html,
+            body{
+                padding: 0;
+                margin: 0;
+                height: 100%
+            }
+            body {
+                display: flex;
+            }
+
+            body,
+            canvas {
+                background-color: black;
+            }
+
+            canvas{
+                width: 100%;
+                object-fit: contain;
+                image-rendering: crisp-edges;
+                image-rendering: pixelated;
+            }
+
+            img {
+                display: none;
+            }
+
+        </style>
+        <script type="module" src="./src/index.js"></script>
+    </head>
+    <body>
+        <canvas width="384" height="224"></canvas>
+
+        <img src="./images/background.png" alt="background" />
+        <img src="./images/ken-stage.png" alt="stage"/>
+        <img src="./images/misc.png" alt="misc"/>
+        <img src="./images/shadow.png" alt="shadow" />
+        <img src="./images/ryu.png" alt="ryu" />
+        <img src="./images/ken.png" alt="ken" />
+    </body>
+</html>
+
