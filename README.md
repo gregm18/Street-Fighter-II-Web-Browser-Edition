@@ -15,10 +15,10 @@ This project implements State Machine logic with modular JavaScript to recreate 
 
 **Requirements**
 
-	A keyboard to control character entities
-	Any typical web browser (Google Chrome Recommended)
-	Visual Studio Code with The Live Server/Five Server Extension
-	Street Fighter II: Web Browser Edition Project Files
+- A keyboard to control character entities
+- Any typical web browser (Google Chrome Recommended)
+- Visual Studio Code with The Live Server/Five Server Extension
+- Street Fighter II: Web Browser Edition Project Files
   
 **Installation**
 
