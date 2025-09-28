@@ -38,7 +38,7 @@ Download the “Street Fighter II: Web Browser Edition Project” files anywhere
 All states are held in the fighter class in a variable named “states.” Each state is defined with an initialization and update function. Some states use the same function since some functions have unique attributes to specific states. Each state has a variable, validFrom. If the new player state requested is not valid from the current player state, then the player state will not change.
 For example, the FighterState.WALK_FORWARD state is allowed to be transitioned from the FighterState.IDLE state so that fighters are given the option to move out of their original standing state.
 The state machine allows the developer to control what a player’s actions are and how each action can be used through restrictions with validFrom.
-![state machine](readme\State Machine.png)
+![state machine]([readme\State Machine.png](https://github.com/gregm18/G-Testing-0/blob/main/readme/State%20Machine.png?raw=true))
 
 **Controls**
 
