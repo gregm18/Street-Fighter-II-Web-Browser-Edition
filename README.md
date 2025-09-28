@@ -81,3 +81,11 @@ Ryu’s movement keys are W, A, S, and D.
 Ken’s movement keys are Up, Down, Left, and Right.
 
 ![til](https://github.com/gregm18/G-Testing-0/blob/main/readme/sf2webgifsomewhathigh%20inf%20loop.gif?raw=true)
+
+
+**Troubleshooting**
+In the event that framerate is lower than 30 frames per second or the game stutters dramatically, characters may phase through each other or move more or less than intended. This may happen when there is a bottleneck, low RAM, or when the game's tab is not prioritized. 
+
+Typically, the game is not demanding enough on modern computers to struggle below 30 frames per second and should work fine.
+
+You can see your framerate very lightly in the bottom right corner.
