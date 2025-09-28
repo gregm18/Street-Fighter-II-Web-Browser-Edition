@@ -80,4 +80,4 @@ From here, your browser will be prompted to open and the game will start in a ne
 Ryu’s movement keys are W, A, S, and D.
 Ken’s movement keys are Up, Down, Left, and Right.
 
-![til](https://github.com/gregm18/G-Testing-0/blob/main/readme/sf2%20web%20gif%20somewhat%20high.gif?raw=true)
+![til](https://github.com/gregm18/G-Testing-0/blob/main/readme/sf2webgifsomewhathigh%20inf%20loop.gif?raw=true)
