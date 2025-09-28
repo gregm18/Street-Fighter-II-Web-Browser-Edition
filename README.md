@@ -39,12 +39,19 @@ All states are held in the fighter class in a variable named “states.” Each 
 For example, the FighterState.WALK_FORWARD state is allowed to be transitioned from the FighterState.IDLE state so that fighters are given the option to move out of their original standing state.
 The state machine allows the developer to control what a player’s actions are and how each action can be used through restrictions with validFrom.
 
+
 <img width="896" height="432" alt="Image" src="https://github.com/user-attachments/assets/e1e4814d-08c4-482b-b552-051fa3182c52" />
+
+
 
 **Controls**
 
 The game runs states through keyboard control. If a certain player, marked by the variable, playerId, presses a control key, it requests its designated state. Currently, Ryu is considered player 1 and Ken is considered player 2.
-[screenshot of Idle function with isDown isUp isLeft isRight or smth]
+
+
+<img width="620" height="415" alt="Image" src="https://github.com/user-attachments/assets/9e93598a-4231-4125-bd8e-c25385b0bb1b" />
+
+
 
 **The Animation Framework**
 
