@@ -69,11 +69,13 @@ All entities change frames with their own delays. Specifically, the Fighters get
 
 
 **Defining a Fighter**
+
 Each Fighter has their own unique class that is a subclass of the Fighter class. In each subclass, fighters have their own unique character sprite sheets, frames, frame delays, velocity, jump, and gravity values. Because the Fighter class simply grabs these values and executes functions with them accordingly, characters can be incredibly varied in gameplay.
 
 <img width="603" height="293" alt="Image" src="https://github.com/user-attachments/assets/af17899d-b05c-4e03-a731-5fb00e12ede5" />
 
 **Running in the Web Browser**
+
 Once all requirements and installations are fulfilled, run the project by loading the project in Visual Studio Code and press the “Go Live” button on the bottom right.
 
 From here, your browser will be prompted to open and the game will start in a new tab from a live local server.
@@ -85,6 +87,7 @@ Ken’s movement keys are Up, Down, Left, and Right.
 
 
 **Troubleshooting**
+
 In the event that framerate is lower than 30 frames per second or the game stutters dramatically, characters may phase through each other or move more or less than intended. This may happen when there is a bottleneck, low RAM, or when the game's tab is not prioritized. 
 
 Typically, the game is not demanding enough on modern computers to struggle below 30 frames per second and should work fine.
