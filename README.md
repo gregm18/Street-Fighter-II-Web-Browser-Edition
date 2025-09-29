@@ -57,9 +57,10 @@ The game runs states through keyboard control. If a certain player, marked by th
 
 The animation framework begins in the StreetFighterGame class, meaning that only the game itself is currently tied to the animation system. This means that other menus and such may draw and update frames in their own way.
 
-Every entity in the game has its own draw and update functions. The StreetFighterGame class calls these functions on every frame
+Every entity in the game has its own draw and update functions. The StreetFighterGame class calls these functions on every frame.
+
 <img width="647" height="843" alt="Image" src="https://github.com/user-attachments/assets/24eeda8f-4b2e-47fc-8e59-8be9460598e9" />
-.
+
 All entities change frames with their own delays. Specifically, the Fighters get their own unique system for having specific delays for each frame. Other entities need not much complexity for changing frames and thus have fewer complex systems for optimization.
 
 <img width="663" height="220" alt="Image" src="https://github.com/user-attachments/assets/864b0ec7-3293-4194-b3ec-26387a573bd3" />
