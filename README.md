@@ -30,7 +30,7 @@ https://code.visualstudio.com/download
 Once installed, go to Extensions. Search for Live Server or Five Server
 (Five Server is a modification of Live Server. It is recommended if you want to edit the project files and update them on the fly)
 
-Download the “Street Fighter II: Web Browser Edition Project” files anywhere.
+Download the “Street Fighter II: Web Browser Edition Project” files anywhere for Visual Studio Code to access.
 
 
 **The State Machine**
