@@ -100,7 +100,7 @@ export class StatusBar {
         const timeString = String(Math.max(this.time, 0)).padStart(2, '00');
         const flashFrame = TIME_FRAME_KEYS[Number(this.useFlashFrames)];
         
-        //Uses charAt function to detect what the char at position 0 says.
+        //Uses charAt function to detect what the char at position 0 or 1 says.
         this.drawFrame(context, `${flashFrame}-${timeString.charAt(0)}`, 178, 33); //time-{first char}
         this.drawFrame(context, `${flashFrame}-${timeString.charAt(1)}`, 194, 33); //time-{second char}
     }

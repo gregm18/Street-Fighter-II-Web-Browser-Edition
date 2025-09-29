@@ -7,7 +7,7 @@ export class Ryu extends Fighter{
 
         this.image = document.querySelector('img[alt="ryu"]');
 
-        this.frames = new Map([           // [x, y, width, height], [origin point]
+        this.frames = new Map([           // [x, y, width, height], [origin point], collision
 
             //  Idle
             ['idle-1', [[[2, 909, 60, 89], [26, 86]], PushBox.IDLE]],

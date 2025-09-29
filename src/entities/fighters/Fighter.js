@@ -49,8 +49,6 @@ export class Fighter {
                     FighterState.IDLE, FighterState.WALK_FORWARD]
                     ,
             },
-
-            //Modified to be valid from CROUCH_DOWN and CROUCH_UP.
             [FighterState.JUMP_START]: {
                 init: this.handleJumpStartInit.bind(this),
                 update: this.handleJumpStartState.bind(this),
@@ -194,6 +192,8 @@ export class Fighter {
         this.resetVelocities();
     }
     
+    // Horizontal player movement
+
     handleMoveInit()
     {
         this.velocity.x = this.initialVelocity.x[this.currentState] ?? 0;
@@ -416,6 +416,9 @@ export class Fighter {
     updateAnimation(time) {
         const animation = this.animations[this.currentState];
         const [frameKey, frameDelay] = animation[this.animationFrame];
+        //Retrieves the animation of the state the fighter is in and their frame delay.
+        //For example: in Ryu's walk forward animation array, there is one frame that states ['forwards-1', 49].
+        //'forwards-1' is the frameKey. 49 is the frameDelay
 
         if (time.previous > this.animationTimer + frameDelay) {
             this.animationTimer = time.previous;
@@ -431,7 +434,6 @@ export class Fighter {
         }
     }
 
-    // Variables grabbed from index.js
     update(time, context) {
         
         this.position.x += -1 * (this.velocity.x * this.direction) * time.secondsPassed;
@@ -477,7 +479,6 @@ export class Fighter {
         context.stroke();
     }
 
-    // Called in index.js
     draw(context) {
         const [frameKey] = this.animations[this.currentState][this.animationFrame];
         const [[
@@ -495,7 +496,7 @@ export class Fighter {
         );
         context.setTransform(1, 0, 0, 1, 0 , 0);
 
-
+        //To remove collision boxes and origin points, simply comment out the line below using //.
         this.drawDebug(context);
     }
 }
