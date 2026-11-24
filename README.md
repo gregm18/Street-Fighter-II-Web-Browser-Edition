@@ -1,6 +1,6 @@
 **Street Fighter II: Web Browser Edition**
 
-This project implements State Machine logic with modular JavaScript to recreate the player mechanics of the original arcade version of Street Fighter II: The World Warrior. The visuals for the game are animated in real time using the HTML Canvas Element’s 2D rendering context.
+This project is a personal project which implements State Machine logic with modular JavaScript to recreate the player mechanics of the original arcade version of Street Fighter II: The World Warrior. The visuals for the game are animated in real time using the HTML Canvas Element’s 2D rendering context.
 
 **Table of Contents**
 
